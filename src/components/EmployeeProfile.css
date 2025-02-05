@@ -1,37 +1,36 @@
 /* EmployeeProfile.css */
 .employee-profile {
-    display: flex;
-    margin: 50px;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    padding: 16px;
-    max-width: 400px;
-    background-color: #f9f9f9;
-  }
-  
-  .profile-image {
-    border-radius: 50%;
-    width: 120px;
-    height: 120px;
-    object-fit:cover;
-    margin-right: 16px;
-  }
-  
-  .employee-details {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .employee-name {
-    margin: 0;
-    font-size: 1.5em;
-    color: #333;
-  }
-  
-  .employee-details p {
-    margin: 4px 0;
-    color: #555;
-  }
-  
+  display: flex;
+  margin: 60px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  max-width: 400px;
+  background-color: #f9f9f9;
+}
+
+.profile-image {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  margin-right: 16px;
+}
+
+.employee-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.employee-name {
+  margin: 0;
+  font-size: 1.5em;
+  color: #333;
+}
+
+.employee-details p {
+  margin: 4px 0;
+  color: #555;
+}
